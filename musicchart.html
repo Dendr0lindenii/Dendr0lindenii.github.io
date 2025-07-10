@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Music Chart</title>
+    <style>
+      body{
+        background-color: #ba0609;
+      }
+    </style>
+     <script src="https://cdn.plot.ly/plotly-3.0.1.min.js" charset="utf-8"></script>jj
+  </head>
+  <body>
+    <center>
+      <h1>A Chart of Cleo Sol's songs</h1>
+      <div id="plot"></div>
+      <script>
+        var songs = ["Fear When You Fly", "When I'm in Your Arms", "Her Light"];
+        var views = [414349, 33724236, 2741612];
+        var trace = {
+          x: songs, 
+          y: views,
+          type:"bar"
+        };
+        var data = [trace];
+        plotly.newPlot("plot", data);
+      </script>
+      <p>
+        <a href="index.html"> Click Here to go back to the Homepage</a>
+      </p>
+  </center>
+ <footer>
+   <center>
+     <hr>
+     <p>
+       <i>Keishla's Website &copy; 2025</i>
+     </p>
+   </center>
+ </footer>   
+  </body>
+</html>
