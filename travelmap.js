@@ -1,6 +1,6 @@
 
 //1°18'47.99"N 103°48'51.16"E
-var coordinates = [1184799,103485116];
+var coordinates = [1.3521, 103.8198];
 
 var map = L.map("map", {
   center: coordinates,
