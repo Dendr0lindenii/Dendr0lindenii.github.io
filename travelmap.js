@@ -12,7 +12,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-var circleMarker01 = L.circle(coordinates. {
+var circleMarker01 = L.circle(coordinates, {
   color: "black",
   fillColor: "green",
   fillOpacity: 0.5,
